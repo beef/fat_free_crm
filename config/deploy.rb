@@ -19,7 +19,7 @@ set :scm_verbose, true
 
 set :user, "beefadmin"
 set :runner, "beefadmin"
-set :use_sudo, false
+set :use_sudo, true
 set :domain, "192.168.1.15"
 default_run_options[:pty] = true
 
